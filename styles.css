@@ -255,3 +255,4 @@ body{font-size:16px}.eyebrow{font-size:12px}.tiny-label{font-size:11px}.body-cop
 
 /* SVGs keep small decorative arrows consistent across mobile browsers. */
 .icon.icon-inline{display:inline-block;width:1em;height:1em;vertical-align:-.12em}
+.form-fallback .button{gap:8px}
