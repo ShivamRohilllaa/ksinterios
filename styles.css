@@ -144,7 +144,15 @@ body{font-size:16px}.eyebrow{font-size:12px}.tiny-label{font-size:11px}.body-cop
 
 /* Filled thumbnails form even rows; opening a design preserves the entire source. */
 .portfolio-grid{align-items:start}
-@media(max-width:600px){.portfolio-grid,.portfolio-grid.is-filtered{grid-template-columns:minmax(0,1fr);gap:32px}}
+@media(max-width:600px){
+  .portfolio-grid,.portfolio-grid.is-filtered{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 12px}
+  .portfolio-grid .project-card{min-width:0}
+  .portfolio-grid .project-caption{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px;margin-top:12px}
+  .portfolio-grid .project-caption h3{min-width:0;overflow-wrap:anywhere}
+  .portfolio-grid .project-card>p{overflow-wrap:anywhere}
+  .portfolio-grid .project-open{width:32px;height:32px;right:9px;bottom:9px}
+  .portfolio-grid .project-open .icon{width:16px;height:16px}
+}
 .portfolio-controls{display:flex;flex-direction:column;align-items:center;gap:18px;margin-top:42px}
 .portfolio-controls>p{font-size:13px;color:var(--muted);letter-spacing:.03em}
 #portfolio-load-more{font-size:15px;min-height:54px;padding:16px 30px;gap:35px}
