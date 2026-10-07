@@ -99,7 +99,7 @@ body{font-size:16px}.eyebrow{font-size:12px}.tiny-label{font-size:11px}.body-cop
 .footer-bottom>a{display:inline-flex;align-items:center;gap:8px}
 .footer-bottom .back-to-top-icon{width:15px;height:15px;transform:rotate(-90deg)}
 
-@media(max-width:1199px){.portfolio-grid,.portfolio-grid.is-filtered{grid-template-columns:repeat(2,minmax(0,1fr));gap:35px}.project-image,.project-card:nth-child(even) .project-image,.portfolio-grid.is-filtered .project-image{aspect-ratio:4/5;max-height:470px}.instagram-grid{gap:16px}.instagram-caption{font-size:12px}.footer-social{min-width:170px;width:100%;margin-left:0;max-width:320px}.footer-social>a{font-size:14px;min-height:46px}.footer-top{flex-wrap:wrap}.project-dialog>img{max-height:45svh;object-position:center}}
+@media(max-width:1199px){.portfolio-grid,.portfolio-grid.is-filtered{grid-template-columns:repeat(2,minmax(0,1fr));gap:35px}.project-caption h3{font-size:26px;line-height:1.2}.project-image,.project-card:nth-child(even) .project-image,.portfolio-grid.is-filtered .project-image{aspect-ratio:4/5;max-height:470px}.instagram-grid{gap:16px}.instagram-caption{font-size:12px}.footer-social{min-width:170px;width:100%;margin-left:0;max-width:320px}.footer-social>a{font-size:14px;min-height:46px}.footer-top{flex-wrap:wrap}.project-dialog>img{max-height:45svh;object-position:center}}
 @media(prefers-reduced-motion:reduce){.instagram-photo>img{transition:none}.instagram-card:hover .instagram-photo>img{transform:none}}
 
 /* Image-only journal: six photographs and two optional reels. */
@@ -148,7 +148,7 @@ body{font-size:16px}.eyebrow{font-size:12px}.tiny-label{font-size:11px}.body-cop
   .portfolio-grid,.portfolio-grid.is-filtered{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 12px}
   .portfolio-grid .project-card{min-width:0}
   .portfolio-grid .project-caption{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px;margin-top:12px}
-  .portfolio-grid .project-caption h3{min-width:0;overflow-wrap:anywhere}
+  .portfolio-grid .project-caption h3{min-width:0;font-size:20px;line-height:1.2;overflow-wrap:anywhere}
   .portfolio-grid .project-card>p{overflow-wrap:anywhere}
   .portfolio-grid .project-open{width:32px;height:32px;right:9px;bottom:9px}
   .portfolio-grid .project-open .icon{width:16px;height:16px}
